@@ -1,0 +1,12 @@
+html, a, button{
+	cursor: url(../img/technical/cursor.png), pointer;
+}
+html{
+min-height: 100vh;
+}
+.clear{
+	background-color: #fff;
+}
+.night{
+	background-color: #000;
+}
