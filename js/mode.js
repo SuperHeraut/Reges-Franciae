@@ -1,10 +1,11 @@
-mode = "clear";
-modeinner = "mode sombre";
 modebutton = document.createElement("button");
-modebutton.innerHTML = modeinner;
-modebutton.setAttribute("class", "nightmode");
-modebutton.setAttribute("onclick", "nightmode()");
+mode = "night";
+modeinner = "mode clair";
+BODY.setAttribute("id", "bg" + mode);
 HEADER.appendChild(modebutton);
+modebutton.innerHTML = modeinner;
+modebutton.setAttribute("onclick", "nightmode()");
+modebutton.setAttribute("class", "button" + mode);
 
 function nightmode(){
 switch (mode){
@@ -17,6 +18,7 @@ switch (mode){
 		modeinner = "mode sombre";
 		break;
 	}
-	BODY.setAttribute("class", mode);
+	BODY.setAttribute("id", "bg" + mode);
 	modebutton.innerHTML = modeinner;
+	modebutton.setAttribute("class", "button" + mode);
 };
