@@ -1,8 +1,9 @@
-modebutton = document.createElement("button");
 mode = "night";
+modebutton = document.createElement("button");
+HEADER.appendChild(modebutton);
+HEADER.setAttribute("id", "header" + mode);
 modeinner = "mode clair";
 BODY.setAttribute("id", "bg" + mode);
-HEADER.appendChild(modebutton);
 modebutton.innerHTML = modeinner;
 modebutton.setAttribute("onclick", "nightmode()");
 modebutton.setAttribute("class", "button" + mode);
@@ -19,6 +20,7 @@ switch (mode){
 		break;
 	}
 	BODY.setAttribute("id", "bg" + mode);
+	HEADER.setAttribute("id", "header" + mode);
 	modebutton.innerHTML = modeinner;
 	modebutton.setAttribute("class", "button" + mode);
 };

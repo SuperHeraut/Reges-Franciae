@@ -32,3 +32,12 @@ button{
 .buttonnight{
 	background-color: #000810ff;
 }
+header{
+	padding: 0.5rem;
+}
+#headerclear{
+	background-color: #0040ffff;
+}
+#headernight{
+	background-color: #000;
+}
