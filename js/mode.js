@@ -1,26 +1,23 @@
-mode = "night";
+mode = "1";
 modebutton = document.createElement("button");
 HEADER.appendChild(modebutton);
-HEADER.setAttribute("id", "header" + mode);
-modeinner = "mode clair";
-BODY.setAttribute("id", "bg" + mode);
+modeinner = "mode sombre";
 modebutton.innerHTML = modeinner;
 modebutton.setAttribute("onclick", "nightmode()");
-modebutton.setAttribute("class", "button" + mode);
 
 function nightmode(){
 switch (mode){
-	case "clear":
+	case "1":
+		style = "night"
+		mode = "0";
 		modeinner = "mode clair";
-		mode = "night";
 		break;
-	case "night":
-		mode = "clear";
+	case "0":
+		style = "clear"
+		mode = "1";
 		modeinner = "mode sombre";
 		break;
 	}
-	BODY.setAttribute("id", "bg" + mode);
-	HEADER.setAttribute("id", "header" + mode);
 	modebutton.innerHTML = modeinner;
-	modebutton.setAttribute("class", "button" + mode);
+	STYLESHEET.setAttribute("href", "../CSS/" + style + ".css");
 };

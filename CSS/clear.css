@@ -1,0 +1,26 @@
+html, a, button{
+	cursor: url(../img/technical/cursor.svg), pointer;
+}
+html{
+min-height: 100vh;
+}
+body{
+	background-position-x: center;
+	background-position-y: center;
+	background-color: #eee;
+	background-image: url(../img/technical/bg.svg);
+	color: #000000ff;
+}
+button{
+	outline: none;
+	border: none;
+	color: #ffc000ff;
+	font-weight: 900;
+	padding: 0.5rem;
+	border-radius: 2rem;
+	background-color: #004080ff;
+}
+header{
+	padding: 0.5rem;
+	background-color: #0040ffff;
+}

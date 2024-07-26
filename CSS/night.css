@@ -1,5 +1,5 @@
 html, a, button{
-	cursor: url(../img/technical/cursor.png), pointer;
+	cursor: url(../img/technical/cursor.svg), pointer;
 }
 html{
 min-height: 100vh;
@@ -7,13 +7,6 @@ min-height: 100vh;
 body{
 	background-position-x: center;
 	background-position-y: center;
-}
-#bgclear{
-	background-color: #eee;
-	background-image: url(../img/technical/bg.svg);
-	color: #000;
-}
-#bgnight{
 	background-color: #000;
 	background-image: url(../img/technical/night-bg.svg);
 	color: #ffc000ff;
@@ -25,19 +18,9 @@ button{
 	font-weight: 900;
 	padding: 0.5rem;
 	border-radius: 2rem;
-}
-.buttonclear{
-	background-color: #004080ff;
-}
-.buttonnight{
 	background-color: #000810ff;
 }
 header{
 	padding: 0.5rem;
-}
-#headerclear{
-	background-color: #0040ffff;
-}
-#headernight{
-	background-color: #000;
+	background-color: #000000ff;
 }
