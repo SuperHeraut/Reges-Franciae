@@ -1,5 +1,5 @@
 html, a, button{
-	cursor: url(../img/technical/cursor.svg), pointer;
+	cursor: url(../img/technical/night-cursor.svg), pointer;
 }
 html{
 min-height: 100vh;
@@ -23,4 +23,19 @@ button{
 header{
 	padding: 0.5rem;
 	background-color: #000000ff;
+}
+#familytree{
+	width: 75%;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	margin:10px auto auto;
+	border-width: 1px;
+	border-style:solid;
+	border-radius: 5px;
+	border-color: #ffc000ff;
+	background-color: #001020c0;
+}
+#familytree::selection{
+	background-color: #ffc000ff;
+	color: #001020c0;
 }
