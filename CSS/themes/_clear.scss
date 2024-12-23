@@ -1,0 +1,31 @@
+html,
+a,
+button {
+	cursor: url(../img/technical/cursor.svg), pointer;
+}
+
+body {
+	background-color: $lightwhite;
+	background-image: url(../img/technical/bg.svg);
+	color: $black;
+}
+
+button {
+	color: $yellow;
+	background-color: $darkblue;
+}
+
+header {
+	background-color: $mediumblue;
+}
+
+#familytree {
+	border-color: $yellow;
+	background-color: $sheerblue;
+	color: $yellow;
+
+	&::selection {
+		background-color: $yellow;
+		color: $sheerdark;
+	}
+}
