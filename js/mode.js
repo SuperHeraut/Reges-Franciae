@@ -1,23 +1,25 @@
 mode = "1";
 modebutton = document.createElement("button");
+modepic = document.createElement("img");
+modebutton.appendChild(modepic);
+modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
 HEADER.appendChild(modebutton);
-modeinner = "mode sombre";
-modebutton.innerHTML = modeinner;
+modeinner = "sun";
 modebutton.setAttribute("onclick", "nightmode()");
 
-function nightmode(){
-switch (mode){
-	case "1":
-		style = "night"
-		mode = "0";
-		modeinner = "mode clair";
-		break;
-	case "0":
-		style = "clear"
-		mode = "1";
-		modeinner = "mode sombre";
-		break;
+function nightmode() {
+	switch (mode) {
+		case "1":
+			style = "night"
+			mode = "0";
+			modeinner = "moon";
+			break;
+		case "0":
+			style = "clear"
+			mode = "1";
+			modeinner = "sun";
+			break;
 	}
-	modebutton.innerHTML = modeinner;
+	modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
 	STYLESHEET.setAttribute("href", "../CSS/" + style + ".css");
 };
