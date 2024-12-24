@@ -21,5 +21,5 @@ function nightmode() {
 			break;
 	}
 	modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
-	STYLESHEET.setAttribute("href", "../CSS/" + style + ".css");
+	MODE.setAttribute("href", "../CSS/" + style + ".css");
 };
