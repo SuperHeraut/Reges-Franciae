@@ -10,7 +10,7 @@ HEAD.appendChild(VIEWPORT);
 HEAD.appendChild(ICON);
 	ICON.setAttribute("rel", "icon");
 	ICON.setAttribute("type", "image/x-icon");
-	ICON.setAttribute("href", "../img/technical/favicon.ico");
+	ICON.setAttribute("href", "../img/technical/favicon.svg");
 
 HEAD.appendChild(RESETSTYLE);
 	RESETSTYLE.setAttribute("rel", "stylesheet");
