@@ -15,7 +15,8 @@ button {
   background-color: #000810;
 }
 
-header {
+header,
+footer {
   background-color: black;
 }
 
