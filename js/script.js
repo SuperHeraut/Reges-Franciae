@@ -6,17 +6,17 @@ const VARS = document.createElement("script");
 const HDS = document.createElement("script");
 	HDS.setAttribute("src", "../js/head.js");
 
-const MOD = document.createElement("script");
-	MOD.setAttribute("src", "../js/mode.js");
-
 const HDR = document.createElement("script");
 	HDR.setAttribute("src", "../js/header.js");
 
 const FTR = document.createElement("script");
 	FTR.setAttribute("src", "../js/footer.js");
 
+const MOD = document.createElement("script");
+	MOD.setAttribute("src", "../js/mode.js");
+
 BODY.appendChild(VARS);
 BODY.appendChild(HDS);
-BODY.appendChild(MOD);
 BODY.appendChild(HDR);
 BODY.appendChild(FTR);
+BODY.appendChild(MOD);

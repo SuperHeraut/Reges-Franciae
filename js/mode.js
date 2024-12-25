@@ -2,9 +2,9 @@ mode = "1";
 modebutton = document.createElement("button");
 modepic = document.createElement("img");
 modebutton.appendChild(modepic);
+modeinner = "sun";
 modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
 HEADER.appendChild(modebutton);
-modeinner = "sun";
 modebutton.setAttribute("onclick", "nightmode()");
 
 function nightmode() {
@@ -21,5 +21,5 @@ function nightmode() {
 			break;
 	}
 	modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
-	MODE.setAttribute("href", "../CSS/" + style + ".css");
+	MODE.setAttribute("href", "../css/" + style + ".css");
 };
