@@ -1,0 +1,32 @@
+html,
+a,
+button {
+  cursor: url(../img/technical/cursor.svg), pointer;
+}
+
+body {
+  background-color: #e0e0e0;
+  background-image: url(../img/technical/bg.svg);
+  color: black;
+}
+
+button {
+  color: #ffc000;
+  background-color: #004080;
+}
+
+header {
+  background-color: #0040ff;
+}
+
+#familytree {
+  border-color: #ffc000;
+  background-color: rgba(0, 64, 128, 0.8784313725);
+  color: #ffc000;
+}
+#familytree::selection {
+  background-color: #ffc000;
+  color: rgba(0, 16, 32, 0.7529411765);
+}
+
+/*# sourceMappingURL=clear.css.map */

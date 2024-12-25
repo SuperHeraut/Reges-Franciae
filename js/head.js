@@ -14,12 +14,12 @@ HEAD.appendChild(ICON);
 
 HEAD.appendChild(RESETSTYLE);
 	RESETSTYLE.setAttribute("rel", "stylesheet");
-	RESETSTYLE.setAttribute("href", "../CSS/reset.css");
+	RESETSTYLE.setAttribute("href", "../css/reset.css");
 
 HEAD.appendChild(STYLESHEET);
 	STYLESHEET.setAttribute("rel", "stylesheet");
-	STYLESHEET.setAttribute("href", "../CSS/style.css");
+	STYLESHEET.setAttribute("href", "../css/style.css");
 
 HEAD.appendChild(MODE);
 	MODE.setAttribute("rel", "stylesheet");
-	MODE.setAttribute("href", "../CSS/" + style + ".css");
+	MODE.setAttribute("href", "../css/" + style + ".css");
