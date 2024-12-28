@@ -1,0 +1,2 @@
+FOOTER.appendChild(FOOTERCONTENT);
+FOOTERCONTENT.innerHTML = "test";
