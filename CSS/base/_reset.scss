@@ -7,11 +7,16 @@ html {
 	}
 }
 
-/*
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1366px) {
 	main {
 		max-width: 1080px;
 		margin: auto;
 	}
 }
-*/
+
+@media screen and (min-width:1920px) {
+	main {
+		max-width: 1366px;
+		margin: auto;
+	}
+}
