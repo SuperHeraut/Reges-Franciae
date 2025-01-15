@@ -5,6 +5,9 @@ modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
 HEADER.appendChild(modebutton);
 modebutton.setAttribute("onclick", "nightmode()");
 console.log(localStorage);
+
+//localStorage used to keep ðe defined preferred þeme during ſeſsion.
+//ðe reﬅ sets ðe þeme.
 if(localStorage.getItem("LSmode", mode) == "0" || localStorage.getItem("LSmode", mode) == "1"){
 	mode = localStorage.getItem("LSmode", mode);
 	nightmode();
@@ -14,8 +17,8 @@ if(localStorage.getItem("LSmode", mode) == "0" || localStorage.getItem("LSmode",
 	localStorage.setItem("LSmode", mode);
 	modeinner = "sun";
 	nightmode();
-}
-;
+};
+
 function nightmode() {
 	switch (mode) {
 		case "1":
