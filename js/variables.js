@@ -2,7 +2,8 @@ let mode;
 let modebutton;
 let modeinner;
 let modepic;
-let style = "clear";
+let style;
+let LSmode;
 // let currentUrl = document;
 
 const BACKTOHOME = document.createElement("a");
