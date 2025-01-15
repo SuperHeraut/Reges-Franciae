@@ -3,7 +3,6 @@ let modebutton;
 let modeinner;
 let modepic;
 let style;
-let LSmode;
 // let currentUrl = document;
 
 const BACKTOHOME = document.createElement("a");
