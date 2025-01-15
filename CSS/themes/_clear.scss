@@ -7,7 +7,10 @@ button {
 body {
 	background-color: $lightwhite;
 	background-image: url(../img/technical/bg.svg);
-	color: $black;
+
+	main {
+		color: $black;
+	}
 }
 
 button {
@@ -15,7 +18,9 @@ button {
 	background-color: $darkblue;
 }
 
-header {
+header,
+footer {
+	color: $yellow;
 	background-color: $mediumblue;
 }
 

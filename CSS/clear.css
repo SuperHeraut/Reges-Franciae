@@ -7,6 +7,8 @@ button {
 body {
   background-color: #e0e0e0;
   background-image: url(../img/technical/bg.svg);
+}
+body main {
   color: black;
 }
 
@@ -15,7 +17,9 @@ button {
   background-color: #004080;
 }
 
-header {
+header,
+footer {
+  color: #ffc000;
   background-color: #0040ff;
 }
 
