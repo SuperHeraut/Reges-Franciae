@@ -1,7 +1,10 @@
-html,
-a,
-button {
+* {
 	cursor: url(../img/technical/cursor.svg), pointer;
+
+	&:hover,
+	&:active {
+		cursor: url(../img/technical/-cursor.svg), pointer;
+	}
 }
 
 body {

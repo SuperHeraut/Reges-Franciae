@@ -1,6 +1,7 @@
-html,
-a,
-button {
+* {
+  cursor: url(../img/technical/night-cursor.svg), pointer;
+}
+*:hover, *:active {
   cursor: url(../img/technical/night-cursor.svg), pointer;
 }
 
