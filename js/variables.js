@@ -1,7 +1,8 @@
+let logoMode
 let mode;
-let modebutton;
-let modeinner;
-let modepic;
+let modeButton;
+let modeInner;
+let modePic;
 let style;
 // let currentUrl = document;
 

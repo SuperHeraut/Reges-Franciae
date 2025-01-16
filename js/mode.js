@@ -1,30 +1,34 @@
-modebutton = document.createElement("button");
-modepic = document.createElement("img");
-modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
-modebutton.setAttribute("onclick", "nightmode()");
-HEADER.appendChild(modebutton);
-modebutton.appendChild(modepic);
+modeButton = document.createElement("button");
+modePic = document.createElement("img");
+modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
+modeButton.setAttribute("onclick", "nightmode()");
+HEADER.appendChild(modeButton);
+modeButton.appendChild(modePic);
+LOGO.before(modeButton);
 
 const nightmode = () => {
 	switch (mode) {
 		case "1":
+			logoMode = "night-";
 			style = "night";
 			localStorage.setItem("LSmode", mode);
 			mode = "0";
-			modeinner = "moon";
+			modeInner = "moon";
 			break;
 
 		case "0":
+			logoMode = "";
 			style = "clear";
 			localStorage.setItem("LSmode", mode);
 			mode = "1";
-			modeinner = "sun";
+			modeInner = "sun";
 			break;
 	}
 
 	console.log(localStorage.getItem("LSmode", mode));
-	modepic.setAttribute("src", "../img/technical/" + modeinner + ".svg");
+	modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
 	MODE.setAttribute("href", "../css/" + style + ".css");
+	LOGO.setAttribute("src", "../img/technical/" + logoMode + "logo.svg");
 };
 
 //localStorage used to keep ðe defined preferred þeme during ſeſsion.
@@ -38,6 +42,6 @@ if(localStorage.getItem("LSmode", mode) == "0" ||
 	style = "clear"
 	mode = "1";
 	localStorage.setItem("LSmode", mode);
-	modeinner = "sun";
+	modeInner = "sun";
 	nightmode();
 };
