@@ -12,6 +12,12 @@ body main {
   margin: 106px auto 64px;
 }
 
+ul,
+ol {
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+}
+
 @media screen and (min-width: 1366px) {
   main {
     max-width: 1080px;

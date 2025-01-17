@@ -35,7 +35,11 @@ footer {
 }
 
 #listOfKings {
-  background-color: rgba(0, 64, 255, 0.5019607843);
+  background-color: rgba(224, 224, 224, 0.5019607843);
+}
+#listOfKings *::selection {
+  background-color: #0040ff;
+  color: #ffc000;
 }
 
 /*# sourceMappingURL=clear.css.map */

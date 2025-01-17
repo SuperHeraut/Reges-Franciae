@@ -39,5 +39,10 @@ footer {
 }
 
 #listOfKings {
-	background-color: $sheermedium;
+	background-color: $sheerwhite;
+
+	*::selection {
+		background-color: $mediumblue;
+		color: $yellow;
+	}
 }
