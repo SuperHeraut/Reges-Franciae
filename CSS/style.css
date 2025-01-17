@@ -1,13 +1,20 @@
+.blur {
+  backdrop-filter: blur(5px);
+}
+
 body {
   min-height: 100vh;
   background-position-x: center;
   background-position-y: center;
 }
+body main {
+  width: calc(100% - 32px);
+  margin: 106px auto 64px;
+}
 
 @media screen and (min-width: 1366px) {
   main {
     max-width: 1080px;
-    margin: auto;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -16,10 +23,34 @@ body {
     margin: auto;
   }
 }
+* {
+  font-family: bahnschrift;
+  font-stretch: semi-condensed;
+}
+
+h1 {
+  font-stretch: extra-condensed;
+  font-size: 2rem;
+}
+
+sup {
+  font-size: 0.75em;
+  vertical-align: super;
+}
+
 header {
+  position: fixed;
+  top: 0;
   width: 100vw;
   padding: 1rem;
+  height: 90px;
   box-sizing: border-box;
+}
+header img {
+  height: 100%;
+}
+header button {
+  float: right;
 }
 header * {
   box-sizing: border-box;
@@ -75,7 +106,19 @@ button {
   box-sizing: border-box;
 }
 
-#familytree {
+#listOfKings {
+  border-radius: 1rem;
+}
+#listOfKings ol {
+  list-style-type: decimal;
+  padding: 1rem 2rem;
+  line-height: 1.5rem;
+}
+#listOfKings ol .coronetIcon {
+  height: 1rem;
+}
+
+#familyTree {
   width: 75%;
   padding: 0.5rem;
   box-sizing: border-box;

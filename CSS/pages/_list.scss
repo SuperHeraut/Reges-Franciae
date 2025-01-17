@@ -1,0 +1,13 @@
+#listOfKings {
+	border-radius: 1rem;
+
+	ol {
+		list-style-type: decimal;
+		padding: 1rem 2rem;
+		line-height: 1.5rem;
+
+		.coronetIcon {
+			height: 1rem;
+		}
+	}
+}

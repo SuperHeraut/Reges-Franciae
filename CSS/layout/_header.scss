@@ -1,7 +1,18 @@
 header {
+	position: fixed;
+	top: 0;
 	width: 100vw;
 	padding: 1rem;
+	height: 90px;
 	box-sizing: border-box;
+
+	img {
+		height: 100%;
+	}
+
+	button {
+		float: right;
+	}
 
 	* {
 		box-sizing: border-box;
