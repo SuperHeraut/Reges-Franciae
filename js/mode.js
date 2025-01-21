@@ -1,10 +1,7 @@
-modeButton = document.createElement("button");
 modePic = document.createElement("img");
 modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
 modeButton.setAttribute("onclick", "nightmode()");
-HEADER.appendChild(modeButton);
-modeButton.appendChild(modePic);
-LOGO.before(modeButton);
+modeButton.append(modePic);
 
 const nightmode = () => {
 	switch (mode) {
@@ -23,9 +20,7 @@ const nightmode = () => {
 			mode = "1";
 			modeInner = "sun";
 			break;
-	}
-
-	console.log(localStorage.getItem("LSmode", mode));
+	};
 	modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
 	MODE.setAttribute("href", "../css/" + style + ".css");
 	LOGO.setAttribute("src", "../img/technical/" + logoMode + "logo.svg");
