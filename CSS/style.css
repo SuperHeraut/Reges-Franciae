@@ -32,6 +32,7 @@ ol {
 * {
   font-family: bahnschrift;
   font-stretch: semi-condensed;
+  font-weight: 200;
 }
 
 h1 {
@@ -42,6 +43,10 @@ h1 {
 sup {
   font-size: 0.75em;
   vertical-align: super;
+}
+
+a:hover {
+  font-weight: 900;
 }
 
 header {
