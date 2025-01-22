@@ -49,6 +49,14 @@ a:hover {
   font-weight: 900;
 }
 
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
 header {
   position: fixed;
   top: 0;
