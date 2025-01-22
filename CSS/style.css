@@ -125,6 +125,16 @@ button {
   box-sizing: border-box;
 }
 
+#homepage {
+  width: 75%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  margin: 10px auto auto;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
 #listOfKings {
   border-radius: 1rem;
 }
