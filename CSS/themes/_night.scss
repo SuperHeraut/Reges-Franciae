@@ -11,6 +11,12 @@ a {
 	&:hover {
 		color: $white;
 	}
+
+	u {
+		&:hover {
+			text-decoration-line: $white;
+		}
+	}
 }
 
 body {

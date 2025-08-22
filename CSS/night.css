@@ -5,6 +5,13 @@
   cursor: url(../img/technical/night-cursor.svg), pointer;
 }
 
+a:hover {
+  color: white;
+}
+a u:hover {
+  text-decoration-line: white;
+}
+
 body {
   background-color: #000;
   background-image: url(../img/technical/night-bg.svg);
