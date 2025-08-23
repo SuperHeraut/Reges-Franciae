@@ -11,7 +11,7 @@
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="Anjou-DeuxSiciles.svg"
+   sodipodi:docname="PA-Anjou-DeuxSiciles.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -45,18 +45,6 @@
          style="stop-color:#0047d6;stop-opacity:1;"
          offset="1"
          id="stop904" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient6"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop5" />
-      <stop
-         style="stop-color:#d9d9d9;stop-opacity:1;"
-         offset="1"
-         id="stop6" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
@@ -132,17 +120,6 @@
        x2="1021.5065"
        y2="-213.21542"
        gradientUnits="userSpaceOnUse" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6"
-       id="radialGradient74"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.43379254,0,0,0.49011703,214.19748,322.82133)"
-       cx="31.421003"
-       cy="411.41257"
-       fx="31.421003"
-       fy="411.41257"
-       r="65.963409" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath356">
@@ -163,17 +140,6 @@
        cy="444.33572"
        fx="42.396584"
        fy="444.33572"
-       r="65.963409" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6"
-       id="radialGradient290"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.43379255,4.222295e-8,0,0.49011717,218.97774,315.26517)"
-       cx="42.396584"
-       cy="396.05029"
-       fx="42.396584"
-       fy="396.05029"
        r="65.963409" />
     <radialGradient
        inkscape:collect="always"
@@ -1216,10 +1182,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="513.00597"
-     inkscape:cy="527.14811"
+     inkscape:cx="513.00596"
+     inkscape:cy="470.57955"
      inkscape:document-units="px"
-     inkscape:current-layer="g1"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -2459,7 +2425,7 @@
          style="stroke:#806000;stroke-width:0.115005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(2.3006262,0,0,2.3006262,-264.96199,-676.16744)">
         <path
-           style="fill:url(#radialGradient74);fill-opacity:1;stroke:#806000;stroke-width:0.115005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           style="fill:#ffffff;fill-opacity:1;stroke:#806000;stroke-width:0.115005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
            d="m 227.82767,507.21726 v -15.08542 h 9.54139 v 15.08542 z"
            id="path30"
            inkscape:connector-curvature="0"
@@ -3482,7 +3448,7 @@
          style="stroke:#806000;stroke-width:0.115005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(2.3006262,0,0,2.3006262,-286.91315,-641.46153)">
         <path
-           style="fill:url(#radialGradient290);fill-opacity:1;stroke:#806000;stroke-width:0.115005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           style="fill:#ffffff;fill-opacity:1;stroke:#806000;stroke-width:0.115005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
            d="m 227.82767,507.21726 v -15.08542 h 9.54139 v 15.08542 z"
            id="path210"
            inkscape:connector-curvature="0"
